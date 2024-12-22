@@ -48,5 +48,7 @@ Hai, selamat datang di DoStudy!, aplikasi web yang bakal bantu kamu belajar lebi
 - Tambahkan tugas untuk melacak progresmu
 - (Opsional) Atur musik belajar lewat Spotify
 
+#
+#
 "Made with ❤️ for productive study sessions"
 - Anugrah Jihad Nur Ridho
