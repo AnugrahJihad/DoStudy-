@@ -27,7 +27,7 @@ Hai, selamat datang di DoStudy!, aplikasi web yang bakal bantu kamu belajar lebi
 #
 
 ## Teknologi yang digunakan 🔧
-### Teknoogi Utama 🖊️
+### Teknologi Utama 🖊️
 - HTML5
 - CSS3 (desain responsif)
 - Vanilla JavaScript
