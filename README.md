@@ -50,4 +50,4 @@ Hai, selamat datang di DoStudy!, aplikasi web yang bakal bantu kamu belajar lebi
 #
 
 "Made with ❤️ for productive study sessions"
-- Anugrah Jihad Nur Ridho
+Anugrah Jihad Nur Ridho
