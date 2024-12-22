@@ -49,5 +49,4 @@ Hai, selamat datang di DoStudy!, aplikasi web yang bakal bantu kamu belajar lebi
 - (Opsional) Atur musik belajar lewat Spotify
 #
 
-"Made with ❤️ for productive study sessions"
-Anugrah Jihad Nur Ridho
+"Made with ❤️ for productive study sessions" - Anugrah Jihad Nur Ridho
