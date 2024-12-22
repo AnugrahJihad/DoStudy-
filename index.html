@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoStudy!📔</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <p>✨ <span>DoStudy!</span> Teman Produktivitas Belajar Anda 📚</p>
+    </header>
+    <section class="main-section">
+        <div class="main-container">
+
+            <!-- Pomodoro Timer -->
+            <div class="study-timer container">
+                <h2 class="section-title timer-title">Study Timer ⌚</h2>
+                <p id="timerState">Siap untuk belajar!</p>
+                <h3 id="timerDisplay">00:00</h3>
+                <div class="pomodoro-settings">
+                    <label>
+                        Waktu Belajar (menit):
+                        <input type="number" id="studyTime" min="1" value="25">
+                    </label>
+                    <label>
+                        Waktu Istirahat (menit):
+                        <input type="number" id="breakTime" min="1" value="5">
+                    </label>
+                </div>
+                <div class="pomodoro-controls">
+                    <button id="startPomodoro">Mulai</button>
+                    <button id="pauseResumePomodoro" disabled>Pause</button>
+                    <button id="resetPomodoro" disabled>Reset</button>
+                </div>
+            </div>
+
+            <!-- Music Player -->
+            <div class="container music-player">
+                <h2 class="section-title player-title">Music Player 🎧</h2>
+                <div class="player-controls">
+                    <iframe id="spotifyPlayer" 
+                        src="https://open.spotify.com/embed/track/7cUyhxDPMCG1PEPH64R36s" 
+                        width="100%" 
+                        height="80" 
+                        frameborder="0" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        style="border-radius: 12px;">
+                    </iframe>
+                    <div class="spotify-input">
+                        <input type="text" id="spotifyUrl" placeholder="Paste Spotify URL here..." class="spotify-url-input">
+                        <button id="updatePlayer" class="spotify-button">Play</button>
+                        <button id="savePlaylist" class="spotify-button">Save</button>
+                        <button id="resetDefault" class="spotify-button">Default Song</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- To Do List -->
+        <div class="task-manager container">
+            <h2 class="section-title todo-title">To Do List 📝</h2>
+            <div class="task-input-container">
+                <input type="text" id="taskInput" placeholder="Tambah Tugas Baru...">
+                <button id="addTaskButton" disabled>+ Tugas Baru</button>
+            </div>
+            <div class="task-list" id="taskList"></div>
+        </div>
+    </section>
+
+    <!-- Stylish Popup -->
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-container">
+            <div class="popup-message">
+                Bener ni waktu istirahat lebih lama daripada waktu belajar?
+            </div>
+            <div class="popup-buttons">
+                <button class="btn-cancel" id="popupCancel">Kembali</button>
+                <button class="btn-continue" id="popupContinue">Lanjut Timer</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
