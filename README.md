@@ -24,7 +24,8 @@ Hai, selamat datang di DoStudy!, aplikasi web yang bakal bantu kamu belajar lebi
 - Akses cepat ke musik belajar
 - Simpan dan reset playlist dengan mudah
 - Ada opsi musik bawaan untuk belajar
-
+###
+###
 
 ## Teknologi yang digunakan 🔧
 ### Teknoogi Utama 🖊️
@@ -48,7 +49,8 @@ Hai, selamat datang di DoStudy!, aplikasi web yang bakal bantu kamu belajar lebi
 - Tambahkan tugas untuk melacak progresmu
 - (Opsional) Atur musik belajar lewat Spotify
 
-#
-#
+###
+###
+###
 "Made with ❤️ for productive study sessions"
 - Anugrah Jihad Nur Ridho
