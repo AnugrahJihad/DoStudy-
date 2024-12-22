@@ -25,6 +25,7 @@ Hai, selamat datang di DoStudy!, aplikasi web yang bakal bantu kamu belajar lebi
 - Simpan dan reset playlist dengan mudah
 - Ada opsi musik bawaan untuk belajar
 
+
 ## Teknologi yang digunakan 🔧
 ### Teknoogi Utama 🖊️
 - HTML5
